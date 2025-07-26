@@ -49,9 +49,6 @@ def print_usb_devices(devices):
         print(Fore.GREEN + "-" * 60)
 
 
-# دالة لحفظ المعلومات داخل ملف log.txt
-
-
 # هذا هو مدخل البرنامج: ما يشتغل إلا إذا شغلت الملف مباشرة
 def main_loop():
 
