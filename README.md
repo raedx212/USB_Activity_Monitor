@@ -1,25 +1,13 @@
-📦 USB Activity Monitor
-A simple and lightweight USB monitoring tool for Windows.
+# USB Activity Monitor 🔌
 
-🚀 Features
-✅ Logs each newly connected USB device (name, manufacturer, ID, time, user).
+A simple tool for USB devices on Windows.
 
-🔔 Plays a sound alert when a new device is detected.
+## 💡Features:
+- Registers each new USB device with information such as name, manufacturer, and time.
+- Sound alert when a new device is connected.
+- Ignores duplicates; registers the device only once.
+- Closes by pressing Enter.
 
-🚫 Prevents duplicate logging – logs each device only once.
-
-⏳Closes when you press Enter.
-
-🧰 Installation
-Install the required libraries:
-
+## 📦 How to use:
+1. Register the project libraries:
 pip install wmi pyfiglet colorama
-
-▶️ Usage
-Just run the Python script:
-
-python USB_Activity_Monitor.py
-
-
-👨‍💻 Author
-raedx212
